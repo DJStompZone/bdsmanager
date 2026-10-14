@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MooVoidSMP API Controls",
+    "description": "In-game API control webhooks.",
+    "uuid": "acc11170-f151-4ef8-8f85-7744e7feba2c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "aba77673-c56a-4ba5-ba43-7c3f569e51b4",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-admin",
+      "version": "1.0.0-beta"
+    }
+  ]
+}
